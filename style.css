@@ -24,7 +24,7 @@
 
 ::before,
 ::after {
-  --tw-content: '';
+  --tw-content: "";
 }
 
 /*
@@ -42,9 +42,11 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
 }
 
@@ -81,7 +83,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -125,7 +127,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -214,9 +217,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -263,7 +266,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -348,14 +351,16 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
   /* 2 */
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -425,7 +430,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after{
+*,
+::before,
+::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -433,16 +440,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -450,134 +457,134 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
-.absolute{
+.absolute {
   position: absolute;
 }
 
-.relative{
+.relative {
   position: relative;
 }
 
-.-top-10{
+.-top-10 {
   top: -2.5rem;
 }
 
-.left-0{
+.left-0 {
   left: 0px;
 }
 
-.ml-8{
+.ml-8 {
   margin-left: 2rem;
 }
 
-.mr-4{
+.mr-4 {
   margin-right: 1rem;
 }
 
-.inline-block{
+.inline-block {
   display: inline-block;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.grid{
+.grid {
   display: grid;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.w-28{
+.w-28 {
   width: 7rem;
 }
 
-.w-2\/3{
+.w-2\/3 {
   width: 66.666667%;
 }
 
-.w-12{
+.w-12 {
   width: 3rem;
 }
 
-.w-full{
+.w-full {
   width: 100%;
 }
 
-.flex-col{
+.flex-col {
   flex-direction: column;
 }
 
-.items-start{
+.items-start {
   align-items: flex-start;
 }
 
-.items-center{
+.items-center {
   align-items: center;
 }
 
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 
-.px-5{
+.px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
-.px-8{
+.px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-.px-6{
+.px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-.px-2\.5{
+.px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
 
-.px-2{
+.px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
-.text-gray-600{
+.text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-.text-accent-red{
+.text-accent-red {
   --tw-text-opacity: 1;
   color: hsl(0 100% 63% / var(--tw-text-opacity));
 }
 
-body{
+body {
   --tw-bg-opacity: 1;
   background-color: hsl(218 28% 13% / var(--tw-bg-opacity));
   font-family: Open Sans, sans-serif;
@@ -586,7 +593,7 @@ body{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-header{
+header {
   margin-top: 2.5rem;
   margin-bottom: 4rem;
   display: flex;
@@ -595,17 +602,17 @@ header{
   padding-left: 2rem;
 }
 
-header nav a{
+header nav a {
   margin-right: 1.5rem;
   font-family: Raleway, sans-serif;
 }
 
-header nav a:hover{
+header nav a:hover {
   -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
-section.main-section{
+section.main-section {
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -614,18 +621,18 @@ section.main-section{
   padding-right: 0.5rem;
 }
 
-@media (min-width: 1024px){
-  section.main-section{
+@media (min-width: 1024px) {
+  section.main-section {
     margin-left: auto;
     margin-right: auto;
   }
 
-  section.main-section{
+  section.main-section {
     width: 50%;
   }
 }
 
-.main-section .main-para{
+.main-section .main-para {
   margin-bottom: 1.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -634,63 +641,63 @@ section.main-section{
   line-height: 1.75rem;
 }
 
-@media (min-width: 1024px){
-  .main-section .main-para{
+@media (min-width: 1024px) {
+  .main-section .main-para {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
 
-section.access-section{
+section.access-section {
   margin-bottom: 5rem;
   display: grid;
   justify-content: center;
   row-gap: 2.5rem;
 }
 
-@media (min-width: 1024px){
-  section.access-section{
+@media (min-width: 1024px) {
+  section.access-section {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  section.access-section{
+  section.access-section {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
-  section.access-section{
+  section.access-section {
     -moz-column-gap: 6rem;
-         column-gap: 6rem;
+    column-gap: 6rem;
   }
 
-  section.access-section{
+  section.access-section {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
 
-section.productive-section{
+section.productive-section {
   margin-bottom: 5rem;
   display: grid;
 }
 
-section.productive-section > :not([hidden]) ~ :not([hidden]){
+section.productive-section > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
-@media (min-width: 1024px){
-  section.productive-section{
+@media (min-width: 1024px) {
+  section.productive-section {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  section.productive-section{
+  section.productive-section {
     -moz-column-gap: 3rem;
-         column-gap: 3rem;
+    column-gap: 3rem;
   }
 }
 
-section.quotes-section{
+section.quotes-section {
   margin-top: 6rem;
   margin-bottom: 24rem;
   display: grid;
@@ -699,23 +706,23 @@ section.quotes-section{
   padding-right: 3rem;
 }
 
-@media (min-width: 1024px){
-  section.quotes-section{
+@media (min-width: 1024px) {
+  section.quotes-section {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  section.quotes-section{
+  section.quotes-section {
     -moz-column-gap: 2rem;
-         column-gap: 2rem;
+    column-gap: 2rem;
   }
 
-  section.quotes-section{
+  section.quotes-section {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 }
 
-section.footer-section{
+section.footer-section {
   position: relative;
   display: grid;
   row-gap: 1.5rem;
@@ -727,31 +734,31 @@ section.footer-section{
   padding-bottom: 2.5rem;
 }
 
-@media (min-width: 1024px){
-  section.footer-section{
+@media (min-width: 1024px) {
+  section.footer-section {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  section.footer-section{
+  section.footer-section {
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
 
-  section.footer-section{
+  section.footer-section {
     -moz-column-gap: 2.5rem;
-         column-gap: 2.5rem;
+    column-gap: 2.5rem;
   }
 
-  section.footer-section{
+  section.footer-section {
     row-gap: 0px;
   }
 
-  section.footer-section{
+  section.footer-section {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 }
 
-.footer-section .card-section{
+.footer-section .card-section {
   position: absolute;
   top: -25%;
   margin-left: 2rem;
@@ -760,110 +767,117 @@ section.footer-section{
   --tw-bg-opacity: 1;
   background-color: hsl(217 28% 15% / var(--tw-bg-opacity));
   padding: 2rem;
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 1024px){
-  .footer-section .card-section{
+@media (min-width: 1024px) {
+  .footer-section .card-section {
     left: 25%;
   }
 
-  .footer-section .card-section{
+  .footer-section .card-section {
     max-width: 42rem;
   }
 }
 
-.card-section form{
+.card-section form {
   margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
 }
 
-.card-section form > :not([hidden]) ~ :not([hidden]){
+.card-section form > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
-@media (min-width: 1024px){
-  .card-section form{
+@media (min-width: 1024px) {
+  .card-section form {
     flex-direction: row;
   }
 
-  .card-section form{
+  .card-section form {
     align-items: flex-start;
   }
 
-  .card-section form{
+  .card-section form {
     justify-content: flex-start;
   }
 
-  .card-section form > :not([hidden]) ~ :not([hidden]){
+  .card-section form > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
-  .card-section form > :not([hidden]) ~ :not([hidden]){
+  .card-section form > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-align: center;
   font-family: Raleway, sans-serif;
   font-weight: 700;
 }
 
-h4{
+h4 {
   text-align: left;
 }
 
-h5{
+h5 {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 400;
 }
 
-h1.main-heading{
+h1.main-heading {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-@media (min-width: 1024px){
-  h1.main-heading{
+@media (min-width: 1024px) {
+  h1.main-heading {
     margin-bottom: 2rem;
   }
 }
 
-h2.main-heading{
+h3.main-heading {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-@media (min-width: 1024px){
-  h2.main-heading{
+@media (min-width: 1024px) {
+  h2.main-heading {
     margin-bottom: 2rem;
   }
 
-  h2.main-heading{
+  h2.main-heading {
     width: 11rem;
   }
 
-  h2.main-heading{
+  h2.main-heading {
     text-align: left;
   }
 }
 
-section article.grid-item{
+section article.grid-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -872,19 +886,19 @@ section article.grid-item{
   padding-right: 2.5rem;
 }
 
-section article.grid-item p{
+section article.grid-item p {
   margin-bottom: 2rem;
   text-align: center;
   letter-spacing: 0.025em;
 }
 
-@media (min-width: 1024px){
-  section article.grid-item p{
+@media (min-width: 1024px) {
+  section article.grid-item p {
     width: 75%;
   }
 }
 
-section article.card{
+section article.card {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: hsl(219 30% 18% / var(--tw-bg-opacity));
@@ -894,7 +908,7 @@ section article.card{
   padding-bottom: 1.5rem;
 }
 
-div.arrow-container{
+div.arrow-container {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -906,27 +920,27 @@ div.arrow-container{
   color: hsl(176 68% 64% / var(--tw-text-opacity));
 }
 
-.card div img{
+.card div img {
   margin-right: 0.5rem;
   width: 2.5rem;
   border-radius: 9999px;
 }
 
-h3{
+h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-p.para{
+p.para {
   margin-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.025em;
 }
 
-form input{
+form input {
   border-radius: 9999px;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -936,7 +950,7 @@ form input{
   outline-offset: 2px;
 }
 
-.submit-btn{
+.submit-btn {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
@@ -950,22 +964,22 @@ form input{
   letter-spacing: 0.025em;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(176 68% 64% / var(--tw-bg-opacity));
 }
 
-#ctas a{
+#ctas a {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-#ctas a:hover{
+#ctas a:hover {
   font-weight: 700;
 }
 
-article span{
+article span {
   margin-right: 0.5rem;
   display: flex;
   cursor: pointer;
@@ -978,51 +992,51 @@ article span{
   padding: 0.5rem;
 }
 
-article span:hover{
+article span:hover {
   --tw-border-opacity: 1;
   border-color: hsl(176 68% 64% / var(--tw-border-opacity));
   --tw-text-opacity: 1;
   color: hsl(176 68% 64% / var(--tw-text-opacity));
 }
 
-.attribution{
+.attribution {
   margin-bottom: 1rem;
   text-align: center;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.attribution a{
+.attribution a {
   --tw-text-opacity: 1;
   color: hsl(198 60% 50% / var(--tw-text-opacity));
 }
 
-@media (min-width: 1024px){
-  .lg\:col-span-5{
+@media (min-width: 1024px) {
+  .lg\:col-span-5 {
     grid-column: span 5 / span 5;
   }
 
-  .lg\:row-span-1{
+  .lg\:row-span-1 {
     grid-row: span 1 / span 1;
   }
 
-  .lg\:row-span-2{
+  .lg\:row-span-2 {
     grid-row: span 2 / span 2;
   }
 
-  .lg\:w-32{
+  .lg\:w-32 {
     width: 8rem;
   }
 
-  .lg\:w-full{
+  .lg\:w-full {
     width: 100%;
   }
 
-  .lg\:w-1\/3{
+  .lg\:w-1\/3 {
     width: 33.333333%;
   }
 
-  .lg\:pr-10{
+  .lg\:pr-10 {
     padding-right: 2.5rem;
   }
 }
